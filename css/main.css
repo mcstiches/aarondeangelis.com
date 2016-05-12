@@ -4,7 +4,7 @@ body {
 
 header {
     background-color: #FFFFFF;
-    height: 200px;
+    height: 280px;
     margin: -10px;
     margin-top: -100px;
     padding-top: 100px;
@@ -27,9 +27,15 @@ header {
     padding-top: 50px;
 }
 
+#resume {
+    height: 800px;
+}
+
 .something {
     max-width: 25%;
     float: left;
     padding: 4%;
     margin-top: -45px;
 }
+
+

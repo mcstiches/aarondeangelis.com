@@ -10,6 +10,7 @@
 
   <link rel="stylesheet" href="css/unslider.css">
   <link rel="stylesheet" href="css/unslider-dots.css">
+  <link rel="stylesheet" href="css/timeline.css">
   <link rel="stylesheet" href="css/main.css">
 
 </head>
@@ -53,17 +54,17 @@
   <section id="about" class="even-field">
     <h2>About</h2>
     <div class="something">
-      <h3> About 1 </h3>
+      <h3> Education </h3>
       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elit nunc, vestibulum eget ante sed, dictum dapibus nunc. Aliquam erat velit, placerat quis lorem eu, auctor tincidunt mauris. Nulla vestibulum libero et maximus gravida. Pellentesque ante justo, lobortis quis est eu, gravida viverra mauris.</p>
     </div>
     
     <div class="something">
-      <h3> About 2 </h3>
+      <h3> Professional </h3>
       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elit nunc, vestibulum eget ante sed, dictum dapibus nunc. Aliquam erat velit, placerat quis lorem eu, auctor tincidunt mauris. Nulla vestibulum libero et maximus gravida. Pellentesque ante justo, lobortis quis est eu, gravida viverra mauris.</p>
     </div>
     
     <div class="something">
-      <h3> About 3 </h3>
+      <h3> Personal </h3>
       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elit nunc, vestibulum eget ante sed, dictum dapibus nunc. Aliquam erat velit, placerat quis lorem eu, auctor tincidunt mauris. Nulla vestibulum libero et maximus gravida. Pellentesque ante justo, lobortis quis est eu, gravida viverra mauris.</p>
     </div>
     
@@ -72,6 +73,23 @@
   <!-- Resume -->
   <section id="resume" class="odd-field">
     <h2>Resume</h2>
+      <div id="example">
+        <div>
+            <h1>Babl Media</h1>
+        </div>
+        <div>
+            <h1>Graduate College</h1>
+        </div>
+        <div>
+            <h1>MRI</h1>
+        </div>
+        <div>
+            <h1>Brooksource</h1>
+        </div>
+        <div>
+            <h1>Gild</h1>
+        </div>
+      </div>
   </section>
   
   <!-- Projects -->
@@ -95,6 +113,7 @@
   -->
   <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 	<script src="js/unslider-min.js"></script>
+  <script src="js/timeline.min.js"></script>
   
   <!-- move to js file -->
   <script>
@@ -106,5 +125,9 @@
       });
 		});
 	</script>
+  
+  <script>
+    $('#example').timeline();
+  </script>
 </body>
 </html>
