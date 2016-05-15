@@ -47,10 +47,12 @@ body {
     height: 800px;
 }
 
-.something {
-    max-width: 25%;
-    float: left;
-    padding: 4%;
+.about-section {
+    max-width: 250px;
+    min-width: 250px;
+    min-height: 100px;
+    display:inline-block;    
+    padding: 50px 30px;
     margin-top: -45px;
 }
 
