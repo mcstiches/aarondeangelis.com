@@ -5,49 +5,30 @@
   <meta charset="utf-8">
 
   <title>A. D. </title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
 
-  <link rel="stylesheet" href="css/unslider.css">
-  <link rel="stylesheet" href="css/unslider-dots.css">
   <link rel="stylesheet" href="css/timeline.css">
   <link rel="stylesheet" href="css/main.css">
 
 </head>
 
 <body>
-  <nav>
-    <li>
-      <a>About</a>
-    </li>
-    <li>
-      <a>Resume</a>
-    </li>
-    <!--
-      <li>
-      <a>Projects</a>
-    </li>
-    <li>
-      <a>Blog</a>
-    </li>
-    -->
-    <li>
-      <a>Contact</a>
-    </li>
-  </nav>
+
   
   <!-- Top -->
   <header>
+    <div id="header">
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+    
     <div id="top" >
       <h1>Aaron DeAngelis</h1>
     </div>
-    <div class="my-slider">
-	    <ul>
-		    <li>My slide</li>
-		    <li>Another slide</li>
-		    <li>My last slide</li>
-	    </ul>
-    </div>
+  
   </header>
   
   <!-- About -->
@@ -76,18 +57,25 @@
       <div id="example">
         <div>
             <h1>Babl Media</h1>
+            <p>Front End Developer: September 2013</p>
+            
         </div>
         <div>
             <h1>Graduate College</h1>
+            <p>BS in Computer Science: May 2014</p>
+
         </div>
         <div>
             <h1>MRI</h1>
+            <p>QA Engineer: June 2014</p>
         </div>
         <div>
             <h1>Brooksource</h1>
+            <p>Test Automation Developer: November 2014</p>
         </div>
         <div>
             <h1>Gild</h1>
+            <p>QA Engineer: September 2015</p>
         </div>
       </div>
   </section>
@@ -108,26 +96,26 @@
   </section>
   
   
-  <!--
+  
   <script src="js/scripts.js"></script>
-  -->
-  <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
 	<script src="js/unslider-min.js"></script>
   <script src="js/timeline.min.js"></script>
   
-  <!-- move to js file -->
+  
+  
   <script>
-		jQuery(document).ready(function($) {
-			$('.my-slider').unslider({
-        infinite: true,
-        autoplay: true, 
-        arrows: false
-      });
-		});
-	</script>
+    $(document).ready(function(){
+      $("#header").sticky({topSpacing:0});
+    });
+  </script>
   
   <script>
     $('#example').timeline();
   </script>
+  
+  
+  
 </body>
 </html>
