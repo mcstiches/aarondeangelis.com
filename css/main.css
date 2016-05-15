@@ -4,25 +4,41 @@ body {
 
 header {
     background-color: #FFFFFF;
+    color: black;
     height: 280px;
     margin: -10px;
     margin-top: -100px;
-    padding-top: 100px;
-    
+    padding-top: 100px; 
 }
 
-.even-field {
+body {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#about {
+  background-color: #3C89FF;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;  
+  height: 400px;
+  margin-top: -120px;
+  padding-top: 50px;
+}
+
+#contact {
+    bottom: 0;
     background-color: #3C89FF;
     height: 400px;
-    margin: -10px;
-    margin-top: -30px;
+    margin-top: -20px;
     padding-top: 50px;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
 }
+
 
 .odd-field {
     background-color: #DCFF63;
     height: 400px;
-    margin: -10px;
     margin-top: -30px;
     padding-top: 50px;
 }
@@ -72,6 +88,27 @@ li a {
 li a:hover {
     background-color: #DDD;
 }
+
+
+.social {
+    background-color: #3C89FF; 
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    margin: 50px 15px 0px 15px;
+}
+
+.email {
+    background-color: #3C89FF; 
+    border: none;
+    color: white;
+}
+
+a .social:visited {
+    color: white;
+}
+
 
 
 
