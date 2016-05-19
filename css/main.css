@@ -1,9 +1,5 @@
 @font-face { font-family: Ailerons; src:url('../fonts/Ailerons-Typeface.otf'); } 
 
-body {
-    text-align: center;
-}
-
 header {
     background-color: #FFFFFF;
     color: black;
@@ -13,71 +9,62 @@ header {
 }
 
 body {
+    text-align: center;
     width: 80%;
     margin-left: 10%;
     font-family: 'Josefin Sans', sans-serif;
 }
-h2 {
+
+h2, #top {
     font-family: Ailerons, serif;
     font-size: 2em;
-}
-
-#top {
-    font-size: 2em;
-    font-family: Ailerons, serif;
-    padding-top: 50px;
-}
-
-#about {
-  background-color: #96CEB4;
-  border-top-left-radius: 2em;
-  border-top-right-radius: 2em;  
-  height: 400px;
-  margin-top: -120px;
-  padding-top: 50px;
-
-}
-
-#contact {
-    bottom: 0;
-    background-color: #96CEB4;
-    height: 400px;
-    margin-top: -20px;
-    padding-top: 50px;
-    border-bottom-left-radius: 2em;
-    border-bottom-right-radius: 2em;
-}
-
-
-.odd-field {
-    background-color: #FF8069;
-    height: 400px;
-    margin-top: -30px;
-    padding-top: 50px;
-}
-
-#resume {
-    height: 200px;
-}
-
-.about-section {
-    max-width: 250px;
-    min-width: 250px;
-    min-height: 100px;
-    display:inline-block;    
-    padding: 50px 30px;
-    margin-top: -45px;
 }
 
 #header {
     background-color: #FFFFFF;
 }
+
 .is-sticky #header {
     background-color: #FFFFFF;
 }
 
-/* nav bar */
+#top {
+    padding-top: 50px;
+}
 
+#about, #contact {
+    background-color: #96CEB4;
+    height: 400px;
+    padding-top: 50px;
+}
+
+#about {
+  margin-top: -120px;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;  
+}
+
+#contact {
+    margin-top: -20px;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+#resume {
+    background-color: #FF8069;
+    height: 200px;
+    margin-top: -30px;
+    padding-top: 50px;
+}
+
+.about-section {
+    width: 250px;
+    display:inline-block;    
+    padding: 50px 30px;
+    margin-top: -45px;
+}
+
+/* nav bar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -99,13 +86,11 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #DDD;
 }
 
-
-.social {
+.social, .email {
     background-color: #96CEB4; 
     border: none;
     color: white;
@@ -114,18 +99,11 @@ li a:hover {
     margin: 50px 15px 0px 15px;
 }
 
-.email {
-    background-color: #96CEB4; 
-    border: none;
-    color: white;
-}
-
 a .social:visited {
     color: white;
 }
 
 #download-resume {
-    border-color: #96CEB4;
     background-color: transparent;
     border: solid;
     color: #fff;
@@ -133,7 +111,6 @@ a .social:visited {
     font-size: 16px;
     margin: 25px 0px 50px 0px;
 }
-
 
 
 
