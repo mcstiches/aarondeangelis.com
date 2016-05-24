@@ -29,7 +29,12 @@
     </div>
     
     <div id="top" >
-      <h1>Aaron DeAngelis</h1>
+      <h1 id="name">
+      </h1>
+       <!-- <script>
+         
+          -->
+       </script>
     </div>
   
   </header>
@@ -87,24 +92,24 @@
 
   </section>
   
-  
-  
-  <script src="js/scripts.js"></script>
   <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
 	<script src="js/unslider-min.js"></script>
-  <script src="js/timeline.min.js"></script>
-  
-  
   
   <script>
     $(document).ready(function(){
       $("#header").sticky({topSpacing:0});
     });
   </script>
+  
+  <script>
+    var h1 = document.getElementById("name");
+    var name = "Aaron";
+     if(window.innerWidth >= 600) {
+              name += ' DeAngelis';
+          }
+     h1.innerHTML = name;
+  </script>
 
-  
-  
-  
 </body>
 </html>
